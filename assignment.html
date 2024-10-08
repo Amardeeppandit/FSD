@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ *{
+            padding: 0px;
+            border: 0px;
+        }
+        .parent{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-top: 200px;
+            
+        }
+        .child{
+            height: 350px;
+            width: 200px;
+            border: 3px solid black;
+            padding-left: 120px;
+        }
+        .btn{
+            height: 40px;
+            width: 100px;
+            background-color: rgb(7, 203, 7);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child" id="basic">
+            <h1>Basic</h1>
+            <p>$10 / month</p>
+            <p>feature1</p>
+            <button type="button" class="btn">SignUP</button>
+         
+        </div>
+        <div class="child" id="premium">
+            <h1>Premium</h1>
+            <p>$30 / month</p>
+            <p>feature1</p>
+            <p>feature1</p>
+            <button type="button" class="btn">SignUP</button>
+        </div>
+        <div class="child" id="pro">
+            <h1>Pro</h1>
+            <p>$50 / month</p>
+            <p>feature1</p>
+            <p>feature1</p>
+            <p>feature1</p>
+            <button type="button" class="btn">SignUP</button>
+        </div>
+    </div>
+</body>
+</html>
